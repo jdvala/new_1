@@ -1,0 +1,50 @@
+---------------------------------
+Run id: auto_encoder
+Log directory: /tmp/tflearn_logs/
+---------------------------------
+Training samples: 22542
+Validation samples: 25191
+--
+Training Step: 180400  | total loss: 0.08324 | time: 9.359ss
+| Momentum | epoch: 080 | loss: 0.08324 - acc: 0.9696 -- iter: 22542/22542
+--
+
+
+        Mean accuracy of the model is : [0.88303750039502094]
+
+
+        The predicted labels are : [[1 3 0 2 4]
+ [1 2 4 3 0]
+ [0 4 3 2 1]
+ ...,
+ [0 4 3 2 1]
+ [1 2 4 3 0]
+ [0 3 4 2 1]]
+
+
+                        The predicted probabilities are :
+
+
+[  2.40651498e-21   9.99898195e-01   1.01769387e-04   3.92976668e-17
+   5.49913610e-15]
+125972
+
+        The confusion Matrix is
+
+ [[60660  1140  3273  2237    32]
+ [ 1773 43093   986    75     0]
+ [ 2196  1623  6783  1053     1]
+ [  266     1    37   689     2]
+ [   18     1     3    17    13]]
+
+        The classification report is
+
+              precision    recall  f1-score   support
+
+     Normal     0.9345    0.9008    0.9173     67342
+        DoS     0.9397    0.9383    0.9390     45927
+      Probe     0.6121    0.5819    0.5966     11656
+        U2R     0.1692    0.6925    0.2720       995
+        I2R     0.2708    0.2500    0.2600        52
+
+avg / total     0.9002    0.8830    0.8902    125972

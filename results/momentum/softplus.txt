@@ -1,0 +1,26 @@
+The Accuracy of the model is : 45.3375920504
+
+	The confusion Matrix is 
+
+ [[9900    0   87    0   16]
+ [2653    0 1169 2769  573]
+ [1480    0  308   84  549]
+ [2585    0  290    9    3]
+ [  58    0    6    0    3]]
+
+Warning (from warnings module):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python35\lib\site-packages\sklearn\metrics\classification.py", line 1113
+    'precision', 'predicted', average, warn_for)
+UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+
+	The classification report is 
+
+              precision    recall  f1-score   support
+
+    class 0     0.5937    0.9897    0.7422     10003
+    class 1     0.0000    0.0000    0.0000      7164
+    class 2     0.1656    0.1272    0.1439      2421
+    class 3     0.0031    0.0031    0.0031      2887
+    class 4     0.0026    0.0448    0.0050        67
+
+avg / total     0.2816    0.4534    0.3452     22542

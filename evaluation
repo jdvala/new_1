@@ -1,0 +1,107 @@
+\section {Supervised Learning of Stacked Autoencoder}\label{sec:}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+Learning Rate       & 0.01              \\ \hline
+Epochs              & 300              \\ \hline
+Batch Size          & 100              \\ \hline
+Neurons             & {[}30,20,10,5{]} \\ \hline
+Activation Function & Sigmoid          \\ \hline
+Optimizer           & Adam Optimizer   \\ \hline
+\end{tabular}
+\caption{Neural Network Parameters for Autoencoder in Tflearn}
+\label{tab:nn_tflearn_parameters}
+\end{table}
+
+The last layer has \textit{Softmax activation} for the classification. This model did not use the greedy layer-wise training approach, as there was no facility to do so in this library.\\ \par
+
+The number of attacks predicted by the model with the parameters mentioned in table \ref{tab:nn_tflearn_parameters} is shown below.\\ \par
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm]{confusion_matrix_tflearn__sigmoid_autoencoder.png}
+\caption{Predicted Attacks using Sigmoid activation}
+\label{graph:auto_tflearn_confusion}
+\end{figure}
+
+The classification report with \textit{precision, recall and f1-score} of all the five classes is shown in figure \ref{fig:classification_report} for the parameters mentioned in the table \ref{tab:nn_tflearn_parameters}\\ \par
+\clearpage
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm]{classification_auto__sigmoid_tflearn.png}
+\caption{Precision, Recall, F1-score of predicted attacks using Sigmoid activation}
+\label{fig:classification_report}
+\end{figure}
+
+\section{Parameters II}\label{sec:parameters2}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+Learning Rate       & 0.001              \\ \hline
+Epochs              & 300              \\ \hline
+Batch Size          & 100              \\ \hline
+Neurons             & {[}30,20,10,5{]} \\ \hline
+Activation Function & ReLU          \\ \hline
+Optimizer           & Adam Optimizer   \\ \hline
+\end{tabular}
+\caption{Neural Network Parameters for Autoencoder in Tflearn}
+\label{tab:nn_tflearn_parameters}
+\end{table}
+
+Total number of attacks predicted by the model with the parameter described in table \ref{tab:nn_tflearn_parameters} is shown in figure \ref{graph:auto_relu_tflearn_confusion}. The \textit{Precision, Recall, and F1-Score} of the network is shown in graph \ref{graph:auto_relu_tflearn_classification}\\ 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{confusion_matrix_tflearn_relu.png}
+\caption{Predicted Attacks using ReLU activation using Adam Optimizer}
+\label{graph:auto_relu_tflearn_confusion}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm]{classification_relu_tflearn.png}
+\caption{Precision, Recall, F1-score of predicted attacks using ReLU activation using Adam Optimizer}
+\label{graph:auto_relu_tflearn_classification}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=13cm]{accuracy_relu_auto_tflearn.png}
+\caption{Accuracy of Stacked autoencoder for different activation functions using Adam Optimizer}
+\label{graph:auto_accu_tflearn}
+\end{figure}
+\clearpage
+
+\section{Parameter III}\label{sec:parameter3}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+Learning Rate       & 0.001              \\ \hline
+Epochs              & 300              \\ \hline
+Batch Size          & 100              \\ \hline
+Neurons             & {[}30,20,10,5{]} \\ \hline
+Activation Function & eLU          \\ \hline
+Optimizer           & Stochastic Gradient Decent Optimizer   \\ \hline
+\end{tabular}
+\caption{Parameters of the Stacked Autoencoder}
+\label{table:parameters_autoencoder}
+\end{table}
+
+The performance of the Stochastic Gradient Decent Optimizer on \textit{Sigmoid, ReLU and Softplus} was below average, but with \textit{eLU} activation it was above average.\\ \par
+\begin{figure}[h]
+\centering
+\includegraphics[width=13cm]{Classification_autoencoder_SGD.png}
+\caption{Precision, Recall and F1-Score of Stacked autoencoder with eLU activation and Stochastic Gradient Decent Optimizer}
+\label{graph:classificationReportSGDeLU}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=13cm]{confusion_autoencoder_SGD.png}
+\caption{Precision, Recall and F1-Score of Stacked autoencoder with eLU activation and Stochastic Gradient Decent Optimizer}
+\label{graph:classificationReportSGDeLU}
+\end{figure}

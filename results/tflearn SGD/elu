@@ -1,0 +1,51 @@
+---------------------------------
+Run id: auto_encoder
+Log directory: /tmp/tflearn_logs/
+---------------------------------
+Training samples: 22542
+Validation samples: 25191
+--
+Training Step: 180400  | total loss: 1.38350 | time: 8.040ss
+| SGD | epoch: 080 | loss: 1.38350 - acc: 0.8952 -- iter: 22542/22542
+--
+
+
+        Mean accuracy of the model is : [0.87779824087703284]
+
+
+        The predicted labels are : [[0 3 1 4 2]
+ [1 4 3 2 0]
+ [0 4 3 2 1]
+ ...,
+ [0 3 4 1 2]
+ [1 4 3 2 0]
+ [0 3 4 1 2]]
+
+
+                        The predicted probabilities are :
+
+
+[ 0.  1.  0.  0.  0.]
+125972
+
+        The confusion Matrix is
+
+ [[59815   507  3356  3664     0]
+ [ 2214 42755   957     1     0]
+ [ 1362  1420  7163  1711     0]
+ [   88     0    62   845     0]
+ [    5     1     1    45     0]]
+/usr/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+        The classification report is
+
+              precision    recall  f1-score   support
+
+     Normal     0.9422    0.8882    0.9144     67342
+        DoS     0.9569    0.9309    0.9437     45927
+      Probe     0.6208    0.6145    0.6176     11656
+        U2R     0.1349    0.8492    0.2328       995
+        I2R     0.0000    0.0000    0.0000        52
+
+avg / total     0.9110    0.8778    0.8919    125972
