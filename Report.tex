@@ -100,10 +100,10 @@ The attacks may be of various types and the system should be able to predict and
 
 \section{Classification of Intrusion Detection System}
 \subsection{Network Intrusion Detection System}
-Network Intrusion Detection System (NIDS) are placed at an intentional point or points with in the network to monitor the traffic going in and out of all devices in the network (Ajay et al. 2014). NIDS are mostly passive devices that monitor the on-going network activity without adding significant overhead or interfering with the network operations. They are easy to secure against attack and may even be undetectable to attackers; they also require little effort to install and use on existing networks. Ideally it would scan all inbound and outbound traffic; however, doing so might create a bottleneck that would impair the overall speed of the network.
+Network Intrusion Detection System (NIDS) are placed at particularly defined places with in the network to monitor the traffic going in and out of all devices in the network. NIDS are mostly passive devices that monitor the on-going network activity without adding significant overhead or interfering with the network operations. They are easy to install and are secure against attack and may even be undetectable to attackers; they also require little effort to install and use on existing networks. Ideally it would scan all inbound and outbound traffic; however, doing so might create a bottleneck that would impair the overall speed of the network.
 
 \subsection{Host based Intrusion Detection System}
-HIDS runs on individual hosts or devices on the network. A HIDS monitors the incoming and outgoing packets from the device only and will alert the user or administrator of suspicious activity detected (Ajay et al. 2014). The suspicious activities are based on the type detection technique employed. For example, audit analyse  technique is able to identify the activities related to operating-system-level intrusion and application-level intrusions.
+Host based Intrusion Detection System (HIDS) runs on individual hosts or devices on the network. A HIDS monitors the incoming and outgoing packets from the device only and will alert the user or administrator of suspicious activity detected. The suspicious activities are based on the type detection technique employed. For example, audit analyse  technique is able to identify the activities related to operating-system-level intrusion and application-level intrusions.
 
 \section{Advantages of Network Based Intrusion Detection System}\label{sec:advantagesofNIDS}
 \begin{enumerate}
@@ -128,7 +128,7 @@ HIDS runs on individual hosts or devices on the network. A HIDS monitors the inc
 
 \section{Limitations of Intrusion Detection Systems}\label{sec:limitsofIDS}
 
-Although very powerful these systems also suffer from many limitations. Noise such as bad packets generated from software bugs, corrupted DNS data can create false alarms \cite{securityengineering}. Outdated software versions are generally the target of the attackers, hence a constantly updated signature database has to be maintained in order to tackle these threats \cite{securityengineering}. Also for signature based Intrusion Detection system there is a lag between a new threat detected and the signature being recorded in the database, this can make IDS vulnerable for that amount of time. \\ \par
+Although IDS are very powerful these systems also suffer from many limitations. Noise such as bad packets generated from software bugs, corrupted DNS data can create false alarms \cite{securityengineering}. Outdated expired software versions are generally the target of the attackers, hence a constantly updated signature database has to be maintained in order to tackle these threats \cite{securityengineering}. Also for signature based Intrusion Detection system there is a delay between a new threat detected and the signature being recorded in the database, this can make IDS vulnerable. \\ \par
 
 Taking authentication and identity confirming mechanism into consideration, IDS are helpless against weak authentication when an attacker gains access. A weakness in the network protocol also makes IDS vulnerable. Encrypted packets are not processed by the IDS and this makes it easy for an attacker to send in encrypted packets and gain access to the system. As NIDS analyse the same network protocol as the attacker uses to attack the system, NIDS on its own can become vulnerable and susceptible to such attacks. \cite{limitationOfIDS}
 \clearpage
@@ -140,9 +140,9 @@ Taking authentication and identity confirming mechanism into consideration, IDS 
 \section{Introduction}\label{sec:tensor_intro}
 \justify
 Tensorflow is an interface for expressing machine learning algorithms and an implementation for executing such algorithms. A computation expressed using Tensorflow can be expressed with little or no changes on wide variety of heterogeneous systems \cite{tensorflow_paper}. \\ \par
-\justify
+
 The Google's Brain project built DistBelief, the first-generation scalable distributed training and inference system. With all the understanding and DistBelief as its core, Google's Brain Team built Tensorflow the second generation of machine learning library. Google and other Alphabet companies have deployed DistBelief and Tensorflow into many of Google's products including Google's search \cite{googleSearch}, Google's Advertising Production, Google's Speech Recognition, Maps, Photos and many more. \\ \par
-\justify
+
 Tensorflow is highly scaleable and can be mapped on many devices and platform ranging from Android and iOS to large scale system consisting of multi-cpu and multi-gpu configurations. For scaling neural network training to larger deployment, Tensorflow allows parallelism through replication and parallel execution of core model with different computational devices all collaborating to update a set of shared parameters or other states. Modest changes in the description of the computation allows a wide variety of different approaches to parallelism with low effort. Some uses of Tensorflow allows some flexibility in terms of the consistency of parameters updates and we can easily express and take advantage of these relaxed synchronization requirements in some of large deployments.\\ \par
 
 A computation model in Tensorflow is called a \textit{graph}, which in turn composes of set of \textit{nodes}. The graph represents the flow of computation with extension for allowing some kind of nodes to maintain and update its states. Tensorflow supports two front end languages C++ and Python to construct these graphs.\\ \par
@@ -173,16 +173,16 @@ A tensor as mentioned above, is an multidimensional array. Tensorflow supports v
 
 \clearpage
 
-\chapter{Deep Neural Network}\label{ref:DNN} 
+\chapter{Deep Neural Networks}\label{ref:DNN} 
 
 \section{Introduction}\label{sec:intro_dnn}
 
-A Deep Neural Network (DNN) is an Artificial Neural Network (ANN) with multiple hidden input and output layers. Similar to other ANNs, DNNs can model complex non-linear relationships. Because each hidden layers computes a non-linear transformation of previous layer, a DNN can have significantly greater power of representation. DNNs are typically feedforward networks in which data flows from the input layer to the output layer without looping back. However, recurrent neural networks, in which data can flow in any direction, are also used, especially long short-term memory, for applications such as language modeling. Convolutional deep neural networks (CNNs) are used in computer vision But before understanding the architecture and workings of a Deep Neural Network we must understand what an ANN is. \\ \par
+A Deep Neural Network (DNN) is an Artificial Neural Network (ANN) with multiple hidden layers, input and output layer. Similar to other ANNs, DNNs can model complex non-linear relationships. Because each hidden layers computes a non-linear transformation of previous layer, a DNN can have significantly greater power of representation. DNNs are typically feedforward networks in which data flows from the input layer to the output layer without looping back. However, recurrent neural networks, in which data can flow in any direction, are also used, especially long short-term memory, for applications such as language modeling. Convolutional deep neural networks (CNNs) are used in computer vision. \\ \par
 
 \section{Artificial Neural Network}\label{ANN}
 An Artificial Neural Network (ANN) are information processing units that are inspired by the way a human nervous system, such as brain, process information. As human brain processes information and takes decision, these models are designed to do the same. Human brain learns from its day to day experience, these ANN try and replicate the learning process, which makes them suitable for some of the unsolvable and resource hungry task. The key element of these neural networks is a Neuron, this neuron is responsible for all the mathematical operations that are performed such as summation, multiplication etc. When these neurons are highly interconnected in large numbers, they work in unison to solve parts of a bigger problem.\\ \par
 
-ANNs, like human beings learn by examples. An ANN is configured for a specific task or application. These task varies from patten recognition in computer-aided diagnosis, speech recognition to classification of data such as text into various categories. Today ANNs find its use in verity of application, Google's search are optimized by these neural networks, Facebook's predictive algorithm in news feeds to Amazon's virtual assistant Alexa. \\ \par
+ANNs, like human beings learn by examples. An ANN is configured for a specific task or application. These task varies from patten recognition in computer-aided diagnosis, speech recognition to classification of data such as text into various categories. Today ANNs find its use in variety of applications, Google's search are optimized by these neural networks, Facebook's predictive algorithm in news feeds to Amazon's virtual assistant Alexa. \\ \par
 
 Neural Network with their ability to derive meaning from complicated and huge data, that would have been otherwise impossible for either humans or other computer techniques, is what makes it powerful tool. Other advantages include Adaptive Learning, Self Organization, and Fault Tolerance.\\ \par
 
