@@ -186,15 +186,19 @@ ANNs, like human beings learn by examples. An ANN is configured for a specific t
 
 Neural Network with their ability to derive meaning from complicated and huge data, that would have been otherwise impossible for either humans or other computer techniques, is what makes it powerful tool. Other advantages include Adaptive Learning, Self Organization, and Fault Tolerance.\\ \par
 
-An artificial neuron is the building block of an ANN. Every input is multiplied with random weights so that the inputs are weighted. These weighted inputs are then summed up with biases and passed through a transfer function and then the net input is passed through the activation function as shown in the figure \ref{fig:AN} \\ \par
+An artificial neuron is the building block of an ANN. Every input is multiplied with random weights so that the inputs are weighted. These weighted inputs are then summed up with biases and passed through a transfer function and then the net input is passed through the activation function as shown in the Figure \ref{fig:AN}. \\ \par
 \begin{figure}[h]
 \centering	
 \includegraphics[width=12cm]{ArtificialNeuronModel.png}\\
 \caption{Structure of Artificial Neuron}
 \label{fig:AN}
 \end{figure} 	
-
-Although the structure and computation of a single artificial neuron looks simple and easy, but its full potential and power of calculation is realized when they are interconnected and made into an artificial neural network as show in figure \ref{fig:NN}\\ \par
+\begin{equation}
+y=f(x_{1}w_{1}+x_{2}w_{2}+x_{3}w_{3}+b)
+\label{Artificial Neuron formula}
+\end{equation}\\
+\par
+Although the structure and computation of a single artificial neuron looks simple and easy, but its full potential and power of calculation is realized when they are interconnected and made into an artificial neural network as show in Figure \ref{fig:NN}\\ \par
 \begin{figure}[h]
 \centering
 \includegraphics[width=12cm]{neural_network.png}
@@ -202,7 +206,7 @@ Although the structure and computation of a single artificial neuron looks simpl
 \label{fig:NN}
 \end{figure}
 
-These artificial neural networks are interconnections of artificial neurons, however these neurons can not be connected however we want. There are predefined architectures and topologies which make them more beneficial to use. These architectures are very effective in numerous tasks and can solve problems quickly and effectively. Once we know the type of problem we need to solve, then we can select appropriate  architecture or topology for the artificial neural network and run our model.\\ \par
+These artificial neural networks are interconnections of artificial neurons, however these neurons can not be connected in any way. There are predefined architectures and topologies which make them more beneficial to use. These architectures are very effective in numerous tasks and can solve problems quickly and effectively. Once we know the type of problem we need to solve, then we can select appropriate  architecture or topology for the artificial neural network and run our model.\\ \par
 
 Once the appropriate topology is selected, then we are ready to train our model. Just like a human brain which learns its responses from the inputs  from all the sensory organs, for an artificial neural network to do whatever its intended to do it requires training. There are two phases of training, one is pre-training and another is fine tuning phase. As ANN is successful in solving the problems we have provided, then it can be used for solving the problem we intended. Artificial neural networks are used in the fields of chemistry, medicine, banking, stock market. It can also solve problems like facial recognition, time-series prediction, regression analysis, pattern recognition.
 
