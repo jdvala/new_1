@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.7.27)  1 AUG 2017 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.10.30)  30 OCT 2017 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Report.tex
 (./Report.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size12.clo
@@ -437,10 +437,10 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -451,15 +451,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count101
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
@@ -506,10 +498,10 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@yc=\dimen132
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count102
-\c@pgf@countb=\count103
-\c@pgf@countc=\count104
-\c@pgf@countd=\count105
+\c@pgf@counta=\count101
+\c@pgf@countb=\count102
+\c@pgf@countc=\count103
+\c@pgf@countd=\count104
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
@@ -527,8 +519,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count106
-\pgfsyssoftpath@bigbuffer@items=\count107
+\pgfsyssoftpath@smallbuffer@items=\count105
+\pgfsyssoftpath@bigbuffer@items=\count106
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -558,7 +550,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen133
-\pgfmath@count=\count108
+\pgfmath@count=\count107
 \pgfmath@box=\box29
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
@@ -575,7 +567,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count109
+\c@pgfmathroundto@lastzeros=\count108
 )) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen134
@@ -607,7 +599,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box30
 \pgf@hbox=\box31
 \pgf@layerbox@main=\box32
-\pgf@picture@serial@count=\count110
+\pgf@picture@serial@count=\count109
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
@@ -635,7 +627,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen157
-\pgf@sys@shading@range@num=\count111
+\pgf@sys@shading@range@num=\count110
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -687,7 +679,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count112
+\pgf@plot@mark@count=\count111
 \pgfplotmarksize=\dimen162
 )
 \tikz@lastx=\dimen163
@@ -700,17 +692,17 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box36
 \tikz@tempbox=\box37
 \tikz@tempbox@bg=\box38
-\tikztreelevel=\count113
-\tikznumberofchildren=\count114
-\tikznumberofcurrentchild=\count115
-\tikz@fig@count=\count116
+\tikztreelevel=\count112
+\tikznumberofchildren=\count113
+\tikznumberofcurrentchild=\count114
+\tikz@fig@count=\count115
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count117
-\pgfmatrixcurrentcolumn=\count118
-\pgf@matrix@numberofcolumns=\count119
+\pgfmatrixcurrentrow=\count116
+\pgfmatrixcurrentcolumn=\count117
+\pgf@matrix@numberofcolumns=\count118
 )
-\tikz@expandcount=\count120
+\tikz@expandcount=\count119
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
@@ -722,8 +714,8 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \t@pgfplots@tokb=\toks36
 \t@pgfplots@tokc=\toks37
 \pgfplots@tmpa=\dimen169
-\c@pgfplots@coordindex=\count121
-\c@pgfplots@scanlineindex=\count122
+\c@pgfplots@coordindex=\count120
+\c@pgfplots@scanlineindex=\count121
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
@@ -736,7 +728,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gflibraryfpu.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
 gfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count123
+\c@pgfmathroundto@lastzeros=\count122
 ))
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
@@ -745,13 +737,13 @@ gfmathfloat.code.tex
 ext.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
 x
-\c@pgfplotsarray@tmp=\count124
+\c@pgfplotsarray@tmp=\count123
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
 ex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
 ex
-\c@pgfplotstable@counta=\count125
+\c@pgfplotstable@counta=\count124
 \t@pgfplotstable@a=\toks38
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
@@ -760,7 +752,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
 .code.tex
-\c@pgfplotslibrarysurf@no=\count126
+\c@pgfplotslibrarysurf@no=\count125
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
 pgfsys-pdftex.def)))
@@ -784,7 +776,7 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen172
 \pgfdecoratedinputsegmentremainingdistance=\dimen173
 \pgf@decorate@distancetomove=\dimen174
-\pgf@decorate@repeatstate=\count127
+\pgf@decorate@repeatstate=\count126
 \pgfdecorationsegmentamplitude=\dimen175
 \pgfdecorationsegmentlength=\dimen176
 )
@@ -798,7 +790,7 @@ ons.pathmorphing.code.tex))
 decorations.pathreplacing.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
 ons.pathreplacing.code.tex))
-\pgfplots@numplots=\count128
+\pgfplots@numplots=\count127
 \pgfplots@xmin@reg=\dimen177
 \pgfplots@xmax@reg=\dimen178
 \pgfplots@ymin@reg=\dimen179
@@ -814,21 +806,21 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))) (/usr/share/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count129
-\c@@ppsavesec=\count130
-\c@@ppsaveapp=\count131
+\c@@pps=\count128
+\c@@ppsavesec=\count129
+\c@@ppsaveapp=\count130
 )
 (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count132
-\c@subtable=\count133
+\c@subfigure=\count131
+\c@subtable=\count132
 )
 (/usr/share/texmf-dist/tex/latex/crop/crop.sty
 Package: crop 2003/05/20 v1.9 crop marks (mf)
 \stockwidth=\dimen183
 \stockheight=\dimen184
-\CROP@index=\count134
-\CROP@offset=\count135
+\CROP@index=\count133
+\CROP@offset=\count134
 Package crop Info: Local config file crop.cfg used on input line 605.
 
 (/usr/share/texmf-dist/tex/xelatex/xetexconfig/crop.cfg))
@@ -845,9 +837,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count136
-\Gm@cntv=\count137
-\c@Gm@tempcnt=\count138
+\Gm@cnth=\count135
+\Gm@cntv=\count136
+\c@Gm@tempcnt=\count137
 \Gm@bindingoffset=\dimen185
 \Gm@wd@mp=\dimen186
 \Gm@odd@mp=\dimen187
@@ -862,8 +854,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
-
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
 \f@nch@headwidth=\skip48
 \f@nch@O@elh=\skip49
 \f@nch@O@erh=\skip50
@@ -943,39 +935,32 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
+\scratchcounter=\count138
 \scratchdimen=\dimen193
 \scratchbox=\box40
-\nofMPsegments=\count140
-\nofMParguments=\count141
+\nofMPsegments=\count139
+\nofMParguments=\count140
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count142
+\MPscratchCnt=\count141
 \MPscratchDim=\dimen194
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
 \everyMPtoPDFconversion=\toks41
-) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
 (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
 (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -984,15 +969,28 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
@@ -1046,12 +1044,12 @@ Package crop Info: using `pdftex' graphics driver on input line 27.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 27.
-
 <combine.png, id=4, 732.7375pt x 80.3pt>
 File: combine.png Graphic file (type png)
- <use combine.png>
-Package pdftex.def Info: combine.png used on input line 31.
-(pdftex.def)             Requested size: 398.33858pt x 43.65417pt.
+<use combine.png>
+Package pdftex.def Info: combine.png  used on input line 31. on input line 31.
+Package pdftex.def Info: Requested size: 398.33858pt x 43.65417pt on input line
+ 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
@@ -1084,25 +1082,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ] [5] (./Report.lot [6
 
 ]
-Overfull \hbox (4.57956pt too wide) in paragraph at lines 46--46
+Overfull \hbox (4.57956pt too wide) in paragraph at lines 47--47
  [][] []\OT1/ptm/m/n/12 Precision Re-call and F1-Score Val-ues of Sig-moid Ac-t
 i-va-tion for Stochas- 
  []
 
 [7]
-Overfull \hbox (3.90752pt too wide) in paragraph at lines 49--49
+Overfull \hbox (3.90752pt too wide) in paragraph at lines 50--50
  [][] []\OT1/ptm/m/n/12 Precision Re-call and F1-Score Val-ues of Soft-plus Ac-
 ti-va-tion for Stochas- 
  []
 
 
-Overfull \hbox (4.57956pt too wide) in paragraph at lines 67--67
+Overfull \hbox (4.57956pt too wide) in paragraph at lines 68--68
  [][] []\OT1/ptm/m/n/12 Precision Re-call and F1-Score Val-ues of Sig-moid Ac-t
 i-va-tion for Stochas- 
  []
 
 
-Overfull \hbox (3.90752pt too wide) in paragraph at lines 70--70
+Overfull \hbox (3.90752pt too wide) in paragraph at lines 71--71
  [][] []\OT1/ptm/m/n/12 Precision Re-call and F1-Score Val-ues of Soft-plus Ac-
 ti-va-tion for Stochas- 
  []
@@ -1143,20 +1141,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--87
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 
  []
 
@@ -1164,34 +1162,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 
  []
 
 [3]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
 
  []
 
@@ -1199,12 +1197,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--149
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
@@ -1213,17 +1211,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
 ]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 
  []
 
@@ -1231,132 +1234,135 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--186
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 
  []
 
 <ArtificialNeuronModel.png, id=65, 751.80875pt x 410.53375pt>
 File: ArtificialNeuronModel.png Graphic file (type png)
-
 <use ArtificialNeuronModel.png>
-Package pdftex.def Info: ArtificialNeuronModel.png used on input line 193.
-(pdftex.def)             Requested size: 341.43306pt x 186.44861pt.
+Package pdftex.def Info: ArtificialNeuronModel.png  used on input line 192. on 
+input line 192.
+Package pdftex.def Info: Requested size: 341.43306pt x 186.44861pt on input lin
+e 192.
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 
  []
 
 <neural_network.png, id=66, 956.57375pt x 575.14874pt>
 File: neural_network.png Graphic file (type png)
-
 <use neural_network.png>
-Package pdftex.def Info: neural_network.png used on input line 201.
-(pdftex.def)             Requested size: 341.43306pt x 205.2894pt.
-
+Package pdftex.def Info: neural_network.png  used on input line 204. on input l
+ine 204.
+Package pdftex.def Info: Requested size: 341.43306pt x 205.2894pt on input line
+ 204.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[7 <./ArtificialNeuronModel.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 
  []
 
-[7 <./ArtificialNeuronModel.png>] <nn_2.png, id=70, 613.29124pt x 513.92pt>
+<nn_2.png, id=73, 613.29124pt x 513.92pt>
 File: nn_2.png Graphic file (type png)
-
 <use nn_2.png>
-Package pdftex.def Info: nn_2.png used on input line 219.
-(pdftex.def)             Requested size: 166.73253pt x 113.80771pt.
- <rnn.png, id=71, 476.53032pt x 233.37187pt>
+Package pdftex.def Info: nn_2.png  used on input line 222. on input line 222.
+Package pdftex.def Info: Requested size: 166.73253pt x 113.80771pt on input lin
+e 222.
+<rnn.png, id=74, 476.53032pt x 233.37187pt>
 File: rnn.png Graphic file (type png)
- <use rnn.png>
-Package pdftex.def Info: rnn.png used on input line 224.
-(pdftex.def)             Requested size: 256.08643pt x 113.81194pt.
+<use rnn.png>
+Package pdftex.def Info: rnn.png  used on input line 227. on input line 227.
+Package pdftex.def Info: Requested size: 256.08643pt x 113.81194pt on input lin
+e 227.
 
-Overfull \hbox (89.35582pt too wide) in paragraph at lines 224--225
+Overfull \hbox (89.35582pt too wide) in paragraph at lines 227--228
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 
  []
 
-[8 <./neural_network.png> <./nn_2.png> <./rnn.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 234.
+[8 <./neural_network.png> <./nn_2.png> <./rnn.png>] [9]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 237.
 
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 234.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 237.
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
-
- []
-
-[9
-
-] <supervised.png, id=81, 756.8275pt x 518.93875pt>
-File: supervised.png Graphic file (type png)
- <use supervised.png>
-Package pdftex.def Info: supervised.png used on input line 261.
-(pdftex.def)             Requested size: 256.0748pt x 175.58165pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
-
- []
-
-<cluster.png, id=82, 259.7203pt x 261.22594pt>
-File: cluster.png Graphic file (type png)
- <use cluster.png>
-Package pdftex.def Info: cluster.png used on input line 282.
-(pdftex.def)             Requested size: 199.16928pt x 200.32346pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 [10
 
- <./supervised.png>] <reinforcement.png, id=86, 528.97626pt x 455.7025pt>
-File: reinforcement.png Graphic file (type png)
+]
+<supervised.png, id=87, 756.8275pt x 518.93875pt>
+File: supervised.png Graphic file (type png)
+<use supervised.png>
+Package pdftex.def Info: supervised.png  used on input line 264. on input line 
+264.
+Package pdftex.def Info: Requested size: 256.0748pt x 175.58165pt on input line
+ 264.
 
-<use reinforcement.png>
-Package pdftex.def Info: reinforcement.png used on input line 293.
-(pdftex.def)             Requested size: 256.0748pt x 220.60518pt.
- [11 <./cluster.png> <./reinforcement.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+
+ []
+
+<cluster.png, id=88, 259.7203pt x 261.22594pt>
+File: cluster.png Graphic file (type png)
+<use cluster.png>
+Package pdftex.def Info: cluster.png  used on input line 285. on input line 285
+.
+Package pdftex.def Info: Requested size: 199.16928pt x 200.32346pt on input lin
+e 285.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+
+ []
+
+[11
+
+ <./supervised.png>]
+<reinforcement.png, id=92, 528.97626pt x 455.7025pt>
+File: reinforcement.png Graphic file (type png)
+<use reinforcement.png>
+Package pdftex.def Info: reinforcement.png  used on input line 296. on input li
+ne 296.
+Package pdftex.def Info: Requested size: 256.0748pt x 220.60518pt on input line
+ 296.
+ [12 <./cluster.png> <./reinforcement.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 
  []
 
@@ -1365,89 +1371,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--306
 
  []
 
-<sigmoid.png, id=91, 680.5425pt x 329.23pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+
+ []
+
+<sigmoid.png, id=97, 680.5425pt x 329.23pt>
 File: sigmoid.png Graphic file (type png)
- <use sigmoid.png>
-Package pdftex.def Info: sigmoid.png used on input line 316.
-(pdftex.def)             Requested size: 341.43306pt x 165.17723pt.
- [12
+<use sigmoid.png>
+Package pdftex.def Info: sigmoid.png  used on input line 319. on input line 319
+.
+Package pdftex.def Info: Requested size: 341.43306pt x 165.17723pt on input lin
+e 319.
+[13
 
  <./sigmoid.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 
  []
 
-<step.png, id=98, 327.8649pt x 258.4857pt>
+<step.png, id=102, 327.8649pt x 258.4857pt>
 File: step.png Graphic file (type png)
- <use step.png>
-Package pdftex.def Info: step.png used on input line 334.
-(pdftex.def)             Requested size: 142.26378pt x 112.16032pt.
+<use step.png>
+Package pdftex.def Info: step.png  used on input line 337. on input line 337.
+Package pdftex.def Info: Requested size: 142.26378pt x 112.16032pt on input lin
+e 337.
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
+Underfull \hbox (badness 10000) in paragraph at lines 343--345
 
  []
 
-<relu.png, id=99, 470.75874pt x 394.47375pt>
+<relu.png, id=103, 470.75874pt x 394.47375pt>
 File: relu.png Graphic file (type png)
- <use relu.png>
-Package pdftex.def Info: relu.png used on input line 351.
-(pdftex.def)             Requested size: 184.9429pt x 154.97574pt.
- [13
+<use relu.png>
+Package pdftex.def Info: relu.png  used on input line 354. on input line 354.
+Package pdftex.def Info: Requested size: 184.9429pt x 154.97574pt on input line
+ 354.
+[14
 
- <./step.png (PNG copy)> <./relu.png>] <tanh.png, id=104, 487.8225pt x 442.6537
-5pt>
+ <./step.png (PNG copy)> <./relu.png>]
+<tanh.png, id=109, 487.8225pt x 442.65375pt>
 File: tanh.png Graphic file (type png)
-
 <use tanh.png>
-Package pdftex.def Info: tanh.png used on input line 365.
-(pdftex.def)             Requested size: 184.9429pt x 167.8184pt.
+Package pdftex.def Info: tanh.png  used on input line 368. on input line 368.
+Package pdftex.def Info: Requested size: 184.9429pt x 167.8184pt on input line 
+368.
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
-
- []
-
-[14 <./tanh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 396--396
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+
+ []
+
+[15 <./tanh.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 
  []
 
@@ -1456,372 +1466,406 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--422
 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
-<autoencoder.png, id=118, 794.97pt x 614.295pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+<autoencoder.png, id=121, 794.97pt x 614.295pt>
 File: autoencoder.png Graphic file (type png)
- <use autoencoder.png>
-Package pdftex.def Info: autoencoder.png used on input line 439.
-(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
- [17 <./autoencoder.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
+<use autoencoder.png>
+Package pdftex.def Info: autoencoder.png  used on input line 449. on input line
+ 449.
+Package pdftex.def Info: Requested size: 284.52756pt x 219.86188pt on input lin
+e 449.
+[18 <./autoencoder.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
-
- []
-
-[18
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 465--465
-
- []
-
-<DBN.png, id=126, 622.325pt x 301.125pt>
-File: DBN.png Graphic file (type png)
- <use DBN.png>
-Package pdftex.def Info: DBN.png used on input line 469.
-(pdftex.def)             Requested size: 270.30118pt x 130.79073pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--475
 
  []
 
 [19
 
- <./DBN.png>]
-Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+]
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 
  []
 
+<DBN.png, id=129, 622.325pt x 301.125pt>
+File: DBN.png Graphic file (type png)
+<use DBN.png>
+Package pdftex.def Info: DBN.png  used on input line 479. on input line 479.
+Package pdftex.def Info: Requested size: 270.30118pt x 130.79073pt on input lin
+e 479.
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
 
  []
 
 [20
 
+ <./DBN.png>]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
+
+ []
+
+[21
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 511--511
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 
  []
 
 
-Overfull \hbox (1.7393pt too wide) in paragraph at lines 528--537
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
+
+ []
+
+
+Overfull \hbox (1.7393pt too wide) in paragraph at lines 540--549
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
-
- []
-
-[22
+[23
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
-<adam_accuracy_greedy.png, id=141, 1203.49625pt x 764.8575pt>
+<adam_accuracy_greedy.png, id=144, 1203.49625pt x 764.8575pt>
 File: adam_accuracy_greedy.png Graphic file (type png)
-
 <use adam_accuracy_greedy.png>
-Package pdftex.def Info: adam_accuracy_greedy.png used on input line 570.
-(pdftex.def)             Requested size: 369.88582pt x 235.07265pt.
- [23
-
- <./adam_accuracy_greedy.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
-
- []
-
+Package pdftex.def Info: adam_accuracy_greedy.png  used on input line 582. on i
+nput line 582.
+Package pdftex.def Info: Requested size: 369.88582pt x 235.07265pt on input lin
+e 582.
 [24
 
-] [25
+ <./adam_accuracy_greedy.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
 
-] <accuracy_rmsprop_greedy.png, id=151, 1189.44376pt x 763.85374pt>
+ []
+
+[25
+
+] [26
+
+]
+<accuracy_rmsprop_greedy.png, id=155, 1189.44376pt x 763.85374pt>
 File: accuracy_rmsprop_greedy.png Graphic file (type png)
-
 <use accuracy_rmsprop_greedy.png>
-Package pdftex.def Info: accuracy_rmsprop_greedy.png used on input line 666.
-(pdftex.def)             Requested size: 369.88582pt x 237.53816pt.
- [26
+Package pdftex.def Info: accuracy_rmsprop_greedy.png  used on input line 678. o
+n input line 678.
+Package pdftex.def Info: Requested size: 369.88582pt x 237.53816pt on input lin
+e 678.
+ [27
 
- <./accuracy_rmsprop_greedy.png (PNG copy)>] [27
+ <./accuracy_rmsprop_greedy.png (PNG copy)>] [28
 
-] <accuracy_SGD_greedy.png, id=159, 1179.40625pt x 764.8575pt>
+]
+<accuracy_SGD_greedy.png, id=162, 1179.40625pt x 764.8575pt>
 File: accuracy_SGD_greedy.png Graphic file (type png)
-
 <use accuracy_SGD_greedy.png>
-Package pdftex.def Info: accuracy_SGD_greedy.png used on input line 759.
-(pdftex.def)             Requested size: 369.88582pt x 239.86934pt.
+Package pdftex.def Info: accuracy_SGD_greedy.png  used on input line 771. on in
+put line 771.
+Package pdftex.def Info: Requested size: 369.88582pt x 239.86934pt on input lin
+e 771.
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--764
+Underfull \hbox (badness 10000) in paragraph at lines 776--776
 
  []
 
-[28
+[29
 
- <./accuracy_SGD_greedy.png (PNG copy)>] [29
+ <./accuracy_SGD_greedy.png (PNG copy)>] [30
 
-] [30
+] [31
 
 ]
-<accuracy_momentum_greedy.png, id=169, 1184.425pt x 751.80875pt>
+<accuracy_momentum_greedy.png, id=172, 1184.425pt x 751.80875pt>
 File: accuracy_momentum_greedy.png Graphic file (type png)
-
 <use accuracy_momentum_greedy.png>
-Package pdftex.def Info: accuracy_momentum_greedy.png used on input line 854.
-(pdftex.def)             Requested size: 369.88582pt x 234.77905pt.
+Package pdftex.def Info: accuracy_momentum_greedy.png  used on input line 866. 
+on input line 866.
+Package pdftex.def Info: Requested size: 369.88582pt x 234.77905pt on input lin
+e 866.
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--874
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 886--886
 
  []
 
-[31
 
- <./accuracy_momentum_greedy.png (PNG copy)>] [32
+Underfull \hbox (badness 10000) in paragraph at lines 888--888
 
-] [33
+ []
+
+[32
+
+ <./accuracy_momentum_greedy.png (PNG copy)>] [33
+
+] [34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 959--960
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
 
  []
 
-<DBN_accuracy_optimizer.png, id=180, 1204.5pt x 803.0pt>
+<DBN_accuracy_optimizer.png, id=183, 1204.5pt x 803.0pt>
 File: DBN_accuracy_optimizer.png Graphic file (type png)
-
 <use DBN_accuracy_optimizer.png>
-Package pdftex.def Info: DBN_accuracy_optimizer.png used on input line 964.
-(pdftex.def)             Requested size: 369.88582pt x 246.58714pt.
+Package pdftex.def Info: DBN_accuracy_optimizer.png  used on input line 976. on
+ input line 976.
+Package pdftex.def Info: Requested size: 369.88582pt x 246.58714pt on input lin
+e 976.
 
-Underfull \hbox (badness 10000) in paragraph at lines 970--970
+Underfull \hbox (badness 10000) in paragraph at lines 982--982
 
  []
 
-[34
+[35
 
- <./DBN_accuracy_optimizer.png>] [35
+ <./DBN_accuracy_optimizer.png>] [36
 
-] [36
+] [37
 
 ]
-Underfull \hbox (badness 2856) in paragraph at lines 1084--1085
+Chapter 5.
+
+Overfull \hbox (29.00688pt too wide) in paragraph at lines 1095--1096
+[]\OT1/ptm/m/n/12 https://www.quora.com/What-is-special-about-rectifier-neural-
+units-used-in-NN-learning 
+ []
+
+[38
+
+
+]
+Underfull \hbox (badness 2856) in paragraph at lines 1105--1106
 []\OT1/ptm/m/n/12 INTRUSION DE-TEC-TION SYS-TEMS;DEFINITION, NEED AND CHAL-
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 1088--1089
+Underfull \hbox (badness 3333) in paragraph at lines 1109--1110
 []\OT1/ptm/m/n/12 Limitations of Net-work In-tru-sion De-tec-tion, Steve Schupp
 , De-cem-ber 1,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
+Underfull \hbox (badness 10000) in paragraph at lines 1109--1110
 \OT1/ptm/m/n/12 2000, https://www.giac.org/paper/gsec/235/limitations-network-i
 ntrusion-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
 \OT1/ptm/m/n/12 2015,www.bloomberg.com/news/articles/2015-10-26/googleturning-i
 ts-lucrative-
  []
 
-[37
+[39
 
 ]
-Underfull \hbox (badness 2486) in paragraph at lines 1113--1114
+Underfull \hbox (badness 2486) in paragraph at lines 1134--1135
 []\OT1/ptm/m/n/12 Alireza Makhzani, Bren-dan Frey, k-Sparse Au-toen-coders, 19 
 Dec 2013,
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 1115--1116
+Underfull \hbox (badness 2512) in paragraph at lines 1136--1137
 []\OT1/ptm/m/n/12 Hinton, G. (2009). "Deep be-lief net-works". Schol-ar-pe-dia.
  4 (5): 5947.
  []
 
-[38]
+[40]
 Appendix A.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1131--1131
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1133
-
- []
-
-[39
-
-
-] <accuracy_adam_tflearn.png, id=202, 1189.44376pt x 752.8125pt>
-File: accuracy_adam_tflearn.png Graphic file (type png)
-
-<use accuracy_adam_tflearn.png>
-Package pdftex.def Info: accuracy_adam_tflearn.png used on input line 1152.
-(pdftex.def)             Requested size: 369.88582pt x 234.10463pt.
- [40
-
- <./accuracy_adam_tflearn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1174--1174
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1154
 
  []
 
 [41
 
-] <accuracy_rmsprop_tflearn.png, id=210, 1201.48875pt x 766.865pt>
-File: accuracy_rmsprop_tflearn.png Graphic file (type png)
-
-<use accuracy_rmsprop_tflearn.png>
-Package pdftex.def Info: accuracy_rmsprop_tflearn.png used on input line 1251.
-(pdftex.def)             Requested size: 369.88582pt x 236.0875pt.
- [42
-
- <./accuracy_rmsprop_tflearn.png (PNG copy)>] [43
-
-] [44
-
-] <accuracy_sgd_tflearn.png, id=221, 1204.5pt x 767.86874pt>
-File: accuracy_sgd_tflearn.png Graphic file (type png)
-
-<use accuracy_sgd_tflearn.png>
-Package pdftex.def Info: accuracy_sgd_tflearn.png used on input line 1346.
-(pdftex.def)             Requested size: 369.88582pt x 235.79895pt.
- [45
-
- <./accuracy_sgd_tflearn.png>] [46
 
 ]
-<accuracy_momentum_tflearn.png, id=229, 1198.4775pt x 769.87625pt>
-File: accuracy_momentum_tflearn.png Graphic file (type png)
+<accuracy_adam_tflearn.png, id=208, 1189.44376pt x 752.8125pt>
+File: accuracy_adam_tflearn.png Graphic file (type png)
+<use accuracy_adam_tflearn.png>
+Package pdftex.def Info: accuracy_adam_tflearn.png  used on input line 1173. on
+ input line 1173.
+Package pdftex.def Info: Requested size: 369.88582pt x 234.10463pt on input lin
+e 1173.
+ [42
 
-<use accuracy_momentum_tflearn.png>
-Package pdftex.def Info: accuracy_momentum_tflearn.png used on input line 1440.
+ <./accuracy_adam_tflearn.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1195
 
-(pdftex.def)             Requested size: 369.88582pt x 237.60191pt.
+ []
+
+[43
+
+]
+<accuracy_rmsprop_tflearn.png, id=216, 1201.48875pt x 766.865pt>
+File: accuracy_rmsprop_tflearn.png Graphic file (type png)
+<use accuracy_rmsprop_tflearn.png>
+Package pdftex.def Info: accuracy_rmsprop_tflearn.png  used on input line 1272.
+ on input line 1272.
+Package pdftex.def Info: Requested size: 369.88582pt x 236.0875pt on input line
+ 1272.
+ [44
+
+ <./accuracy_rmsprop_tflearn.png (PNG copy)>] [45
+
+] [46
+
+]
+<accuracy_sgd_tflearn.png, id=227, 1204.5pt x 767.86874pt>
+File: accuracy_sgd_tflearn.png Graphic file (type png)
+<use accuracy_sgd_tflearn.png>
+Package pdftex.def Info: accuracy_sgd_tflearn.png  used on input line 1367. on 
+input line 1367.
+Package pdftex.def Info: Requested size: 369.88582pt x 235.79895pt on input lin
+e 1367.
  [47
 
- <./accuracy_momentum_tflearn.png>]
-[48
+ <./accuracy_sgd_tflearn.png>] [48
 
-] [49
+]
+<accuracy_momentum_tflearn.png, id=235, 1198.4775pt x 769.87625pt>
+File: accuracy_momentum_tflearn.png Graphic file (type png)
+<use accuracy_momentum_tflearn.png>
+Package pdftex.def Info: accuracy_momentum_tflearn.png  used on input line 1461
+. on input line 1461.
+Package pdftex.def Info: Requested size: 369.88582pt x 237.60191pt on input lin
+e 1461.
+ [49
+
+ <./accuracy_momentum_tflearn.png>] [50
+
+] [51
 
 ]
 Appendix B.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1540--1541
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1562
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1542--1542
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1563
 
  []
 
-<Adam_accuracy_tensorflow.png, id=240, 1204.5pt x 762.85pt>
+<Adam_accuracy_tensorflow.png, id=247, 1204.5pt x 762.85pt>
 File: Adam_accuracy_tensorflow.png Graphic file (type png)
-
 <use Adam_accuracy_tensorflow.png>
-Package pdftex.def Info: Adam_accuracy_tensorflow.png used on input line 1548.
-(pdftex.def)             Requested size: 341.43306pt x 216.23885pt.
-
+Package pdftex.def Info: Adam_accuracy_tensorflow.png  used on input line 1569.
+ on input line 1569.
+Package pdftex.def Info: Requested size: 341.43306pt x 216.23885pt on input lin
+e 1569.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50
+[52
 
- <./Adam_accuracy_tensorflow.png (PNG copy)>] [51] [52
+ <./Adam_accuracy_tensorflow.png (PNG copy)>] [53] [54
 
 ]
-<RMSprop_accuracy_tensorflow.png, id=251, 1201.48875pt x 765.86125pt>
+<RMSprop_accuracy_tensorflow.png, id=257, 1201.48875pt x 765.86125pt>
 File: RMSprop_accuracy_tensorflow.png Graphic file (type png)
-
 <use RMSprop_accuracy_tensorflow.png>
-Package pdftex.def Info: RMSprop_accuracy_tensorflow.png used on input line 165
-0.
-(pdftex.def)             Requested size: 369.88582pt x 235.77847pt.
- [53
+Package pdftex.def Info: RMSprop_accuracy_tensorflow.png  used on input line 16
+71. on input line 1671.
+Package pdftex.def Info: Requested size: 369.88582pt x 235.77847pt on input lin
+e 1671.
+ [55
 
- <./RMSprop_accuracy_tensorflow.png>]
-[54
+ <./RMSprop_accuracy_tensorflow.png>] [56
 
-] [55
-
-] <SGD_accuracy_tensorflow.png, id=262, 1204.5pt x 803.0pt>
-File: SGD_accuracy_tensorflow.png Graphic file (type png)
-
-<use SGD_accuracy_tensorflow.png>
-Package pdftex.def Info: SGD_accuracy_tensorflow.png used on input line 1757.
-(pdftex.def)             Requested size: 369.88582pt x 246.58714pt.
- [56
-
- <./SGD_accuracy_tensorflow.png>] [57
+] [57
 
 ]
+<SGD_accuracy_tensorflow.png, id=269, 1204.5pt x 803.0pt>
 File: SGD_accuracy_tensorflow.png Graphic file (type png)
-
 <use SGD_accuracy_tensorflow.png>
-Package pdftex.def Info: SGD_accuracy_tensorflow.png used on input line 1861.
-(pdftex.def)             Requested size: 369.88582pt x 246.58714pt.
+Package pdftex.def Info: SGD_accuracy_tensorflow.png  used on input line 1778. 
+on input line 1778.
+Package pdftex.def Info: Requested size: 369.88582pt x 246.58714pt on input lin
+e 1778.
  [58
 
-] [59
+ <./SGD_accuracy_tensorflow.png>] [59
 
-] [60
+]
+File: SGD_accuracy_tensorflow.png Graphic file (type png)
+<use SGD_accuracy_tensorflow.png>
+Package pdftex.def Info: SGD_accuracy_tensorflow.png  used on input line 1882. 
+on input line 1882.
+Package pdftex.def Info: Requested size: 369.88582pt x 246.58714pt on input lin
+e 1882.
+
+[60
+
+] [61
+
+] [62
 
 ] (./Report.aux)
 
@@ -1829,13 +1873,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24464 strings out of 492995
- 608787 string characters out of 6138756
- 795009 words of memory out of 5000000
- 27553 multiletter control sequences out of 15000+600000
+ 24412 strings out of 492990
+ 608073 string characters out of 6138687
+ 789271 words of memory out of 5000000
+ 27506 multiletter control sequences out of 15000+600000
  22587 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,96p,1075b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,96p,1070b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -1846,10 +1890,10 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (71 pages, 894484 bytes).
+Output written on Report.pdf (73 pages, 897973 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
+ 328 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
