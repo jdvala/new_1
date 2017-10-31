@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.10.30)  30 OCT 2017 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.10.30)  31 OCT 2017 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1297,7 +1297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--233
 
  []
 
-[8 <./neural_network.png> <./nn_2.png> <./rnn.png>] [9]
+[8 <./neural_network.png> <./nn_2.png> <./rnn.png>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 237.
 
 
@@ -1316,10 +1316,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
-[10
-
-]
-<supervised.png, id=87, 756.8275pt x 518.93875pt>
+[9]
+<supervised.png, id=84, 756.8275pt x 518.93875pt>
 File: supervised.png Graphic file (type png)
 <use supervised.png>
 Package pdftex.def Info: supervised.png  used on input line 264. on input line 
@@ -1336,6 +1334,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
+[10 <./supervised.png>]
 <cluster.png, id=88, 259.7203pt x 261.22594pt>
 File: cluster.png Graphic file (type png)
 <use cluster.png>
@@ -1344,24 +1343,18 @@ Package pdftex.def Info: cluster.png  used on input line 285. on input line 285
 Package pdftex.def Info: Requested size: 199.16928pt x 200.32346pt on input lin
 e 285.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 292--292
 
  []
 
-[11
-
- <./supervised.png>]
-<reinforcement.png, id=92, 528.97626pt x 455.7025pt>
+<reinforcement.png, id=89, 528.97626pt x 455.7025pt>
 File: reinforcement.png Graphic file (type png)
 <use reinforcement.png>
 Package pdftex.def Info: reinforcement.png  used on input line 296. on input li
 ne 296.
-Package pdftex.def Info: Requested size: 256.0748pt x 220.60518pt on input line
- 296.
- [12 <./cluster.png> <./reinforcement.png>]
+Package pdftex.def Info: Requested size: 196.32384pt x 169.12878pt on input lin
+e 296.
+[11 <./cluster.png> <./reinforcement.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 304--304
 
  []
@@ -1376,21 +1369,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--309
 
  []
 
-<sigmoid.png, id=97, 680.5425pt x 329.23pt>
+<sigmoid.png, id=94, 680.5425pt x 329.23pt>
 File: sigmoid.png Graphic file (type png)
 <use sigmoid.png>
 Package pdftex.def Info: sigmoid.png  used on input line 319. on input line 319
 .
 Package pdftex.def Info: Requested size: 341.43306pt x 165.17723pt on input lin
 e 319.
-[13
+[12
 
  <./sigmoid.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 325--325
 
  []
 
-<step.png, id=102, 327.8649pt x 258.4857pt>
+<step.png, id=99, 327.8649pt x 258.4857pt>
 File: step.png Graphic file (type png)
 <use step.png>
 Package pdftex.def Info: step.png  used on input line 337. on input line 337.
@@ -1401,16 +1394,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--345
 
  []
 
-<relu.png, id=103, 470.75874pt x 394.47375pt>
+<relu.png, id=100, 470.75874pt x 394.47375pt>
 File: relu.png Graphic file (type png)
 <use relu.png>
 Package pdftex.def Info: relu.png  used on input line 354. on input line 354.
 Package pdftex.def Info: Requested size: 184.9429pt x 154.97574pt on input line
  354.
-[14
+[13
 
  <./step.png (PNG copy)> <./relu.png>]
-<tanh.png, id=109, 487.8225pt x 442.65375pt>
+<tanh.png, id=105, 487.8225pt x 442.65375pt>
 File: tanh.png Graphic file (type png)
 <use tanh.png>
 Package pdftex.def Info: tanh.png  used on input line 368. on input line 368.
@@ -1431,43 +1424,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
+[14 <./tanh.png>]
+<activation-softplus.png, id=112, 289.08pt x 289.08pt>
+File: activation-softplus.png Graphic file (type png)
+<use activation-softplus.png>
+Package pdftex.def Info: activation-softplus.png  used on input line 400. on in
+put line 400.
+Package pdftex.def Info: Requested size: 199.16928pt x 199.16986pt on input lin
+e 400.
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
-
- []
-
-[15 <./tanh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
 
  []
 
-[16]
+[15 <./activation-softplus.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 418--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
 
  []
 
@@ -1476,121 +1457,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--430
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
 
  []
 
-<autoencoder.png, id=121, 794.97pt x 614.295pt>
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+[17]
+<autoencoder.png, id=122, 794.97pt x 614.295pt>
 File: autoencoder.png Graphic file (type png)
 <use autoencoder.png>
-Package pdftex.def Info: autoencoder.png  used on input line 449. on input line
- 449.
-Package pdftex.def Info: Requested size: 284.52756pt x 219.86188pt on input lin
-e 449.
+Package pdftex.def Info: autoencoder.png  used on input line 461. on input line
+ 461.
+Package pdftex.def Info: Requested size: 227.62204pt x 175.89137pt on input lin
+e 461.
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--473
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+
+ []
+
 [18 <./autoencoder.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
-
- []
-
-[19
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 475--475
-
- []
-
-<DBN.png, id=129, 622.325pt x 301.125pt>
+<DBN.png, id=127, 622.325pt x 301.125pt>
 File: DBN.png Graphic file (type png)
 <use DBN.png>
-Package pdftex.def Info: DBN.png  used on input line 479. on input line 479.
+Package pdftex.def Info: DBN.png  used on input line 492. on input line 492.
 Package pdftex.def Info: Requested size: 270.30118pt x 130.79073pt on input lin
-e 479.
+e 492.
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
 
  []
 
-[20
-
- <./DBN.png>]
+[19 <./DBN.png>] [20]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
  []
 
 [21
 
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Underfull \hbox (badness 10000) in paragraph at lines 520--520
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 534--534
+Underfull \hbox (badness 10000) in paragraph at lines 543--543
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
  []
 
 
-Overfull \hbox (1.7393pt too wide) in paragraph at lines 540--549
+Overfull \hbox (1.7393pt too wide) in paragraph at lines 549--558
  [][] 
  []
 
 [23
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 571--572
 
  []
 
-<adam_accuracy_greedy.png, id=144, 1203.49625pt x 764.8575pt>
+<adam_accuracy_greedy.png, id=145, 1203.49625pt x 764.8575pt>
 File: adam_accuracy_greedy.png Graphic file (type png)
 <use adam_accuracy_greedy.png>
-Package pdftex.def Info: adam_accuracy_greedy.png  used on input line 582. on i
-nput line 582.
+Package pdftex.def Info: adam_accuracy_greedy.png  used on input line 591. on i
+nput line 591.
 Package pdftex.def Info: Requested size: 369.88582pt x 235.07265pt on input lin
-e 582.
+e 591.
 [24
 
  <./adam_accuracy_greedy.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 
  []
 
@@ -1599,27 +1596,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 606--606
 ] [26
 
 ]
-<accuracy_rmsprop_greedy.png, id=155, 1189.44376pt x 763.85374pt>
+<accuracy_rmsprop_greedy.png, id=156, 1189.44376pt x 763.85374pt>
 File: accuracy_rmsprop_greedy.png Graphic file (type png)
 <use accuracy_rmsprop_greedy.png>
-Package pdftex.def Info: accuracy_rmsprop_greedy.png  used on input line 678. o
-n input line 678.
+Package pdftex.def Info: accuracy_rmsprop_greedy.png  used on input line 687. o
+n input line 687.
 Package pdftex.def Info: Requested size: 369.88582pt x 237.53816pt on input lin
-e 678.
+e 687.
  [27
 
  <./accuracy_rmsprop_greedy.png (PNG copy)>] [28
 
 ]
-<accuracy_SGD_greedy.png, id=162, 1179.40625pt x 764.8575pt>
+<accuracy_SGD_greedy.png, id=163, 1179.40625pt x 764.8575pt>
 File: accuracy_SGD_greedy.png Graphic file (type png)
 <use accuracy_SGD_greedy.png>
-Package pdftex.def Info: accuracy_SGD_greedy.png  used on input line 771. on in
-put line 771.
+Package pdftex.def Info: accuracy_SGD_greedy.png  used on input line 780. on in
+put line 780.
 Package pdftex.def Info: Requested size: 369.88582pt x 239.86934pt on input lin
-e 771.
+e 780.
 
-Underfull \hbox (badness 10000) in paragraph at lines 776--776
+Underfull \hbox (badness 10000) in paragraph at lines 785--785
 
  []
 
@@ -1630,20 +1627,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 776--776
 ] [31
 
 ]
-<accuracy_momentum_greedy.png, id=172, 1184.425pt x 751.80875pt>
+<accuracy_momentum_greedy.png, id=173, 1184.425pt x 751.80875pt>
 File: accuracy_momentum_greedy.png Graphic file (type png)
 <use accuracy_momentum_greedy.png>
-Package pdftex.def Info: accuracy_momentum_greedy.png  used on input line 866. 
-on input line 866.
+Package pdftex.def Info: accuracy_momentum_greedy.png  used on input line 875. 
+on input line 875.
 Package pdftex.def Info: Requested size: 369.88582pt x 234.77905pt on input lin
-e 866.
+e 875.
 
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
+Underfull \hbox (badness 10000) in paragraph at lines 895--895
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 888--888
+Underfull \hbox (badness 10000) in paragraph at lines 897--897
 
  []
 
@@ -1658,7 +1655,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 971--972
 
  []
 
-<DBN_accuracy_optimizer.png, id=183, 1204.5pt x 803.0pt>
+<DBN_accuracy_optimizer.png, id=184, 1204.5pt x 803.0pt>
 File: DBN_accuracy_optimizer.png Graphic file (type png)
 <use DBN_accuracy_optimizer.png>
 Package pdftex.def Info: DBN_accuracy_optimizer.png  used on input line 976. on
@@ -1679,9 +1676,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 982--982
 ]
 Chapter 5.
 
-Overfull \hbox (29.00688pt too wide) in paragraph at lines 1095--1096
-[]\OT1/ptm/m/n/12 https://www.quora.com/What-is-special-about-rectifier-neural-
-units-used-in-NN-learning 
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1092--1092
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1097
+
  []
 
 [38
@@ -1745,7 +1756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1154--1154
 
 
 ]
-<accuracy_adam_tflearn.png, id=208, 1189.44376pt x 752.8125pt>
+<accuracy_adam_tflearn.png, id=209, 1189.44376pt x 752.8125pt>
 File: accuracy_adam_tflearn.png Graphic file (type png)
 <use accuracy_adam_tflearn.png>
 Package pdftex.def Info: accuracy_adam_tflearn.png  used on input line 1173. on
@@ -1762,7 +1773,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1195--1195
 [43
 
 ]
-<accuracy_rmsprop_tflearn.png, id=216, 1201.48875pt x 766.865pt>
+<accuracy_rmsprop_tflearn.png, id=217, 1201.48875pt x 766.865pt>
 File: accuracy_rmsprop_tflearn.png Graphic file (type png)
 <use accuracy_rmsprop_tflearn.png>
 Package pdftex.def Info: accuracy_rmsprop_tflearn.png  used on input line 1272.
@@ -1776,7 +1787,7 @@ Package pdftex.def Info: Requested size: 369.88582pt x 236.0875pt on input line
 ] [46
 
 ]
-<accuracy_sgd_tflearn.png, id=227, 1204.5pt x 767.86874pt>
+<accuracy_sgd_tflearn.png, id=228, 1204.5pt x 767.86874pt>
 File: accuracy_sgd_tflearn.png Graphic file (type png)
 <use accuracy_sgd_tflearn.png>
 Package pdftex.def Info: accuracy_sgd_tflearn.png  used on input line 1367. on 
@@ -1788,7 +1799,7 @@ e 1367.
  <./accuracy_sgd_tflearn.png>] [48
 
 ]
-<accuracy_momentum_tflearn.png, id=235, 1198.4775pt x 769.87625pt>
+<accuracy_momentum_tflearn.png, id=236, 1198.4775pt x 769.87625pt>
 File: accuracy_momentum_tflearn.png Graphic file (type png)
 <use accuracy_momentum_tflearn.png>
 Package pdftex.def Info: accuracy_momentum_tflearn.png  used on input line 1461
@@ -1813,7 +1824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1563--1563
 
  []
 
-<Adam_accuracy_tensorflow.png, id=247, 1204.5pt x 762.85pt>
+<Adam_accuracy_tensorflow.png, id=248, 1204.5pt x 762.85pt>
 File: Adam_accuracy_tensorflow.png Graphic file (type png)
 <use Adam_accuracy_tensorflow.png>
 Package pdftex.def Info: Adam_accuracy_tensorflow.png  used on input line 1569.
@@ -1828,7 +1839,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  <./Adam_accuracy_tensorflow.png (PNG copy)>] [53] [54
 
 ]
-<RMSprop_accuracy_tensorflow.png, id=257, 1201.48875pt x 765.86125pt>
+<RMSprop_accuracy_tensorflow.png, id=258, 1201.48875pt x 765.86125pt>
 File: RMSprop_accuracy_tensorflow.png Graphic file (type png)
 <use RMSprop_accuracy_tensorflow.png>
 Package pdftex.def Info: RMSprop_accuracy_tensorflow.png  used on input line 16
@@ -1842,7 +1853,7 @@ e 1671.
 ] [57
 
 ]
-<SGD_accuracy_tensorflow.png, id=269, 1204.5pt x 803.0pt>
+<SGD_accuracy_tensorflow.png, id=270, 1204.5pt x 803.0pt>
 File: SGD_accuracy_tensorflow.png Graphic file (type png)
 <use SGD_accuracy_tensorflow.png>
 Package pdftex.def Info: SGD_accuracy_tensorflow.png  used on input line 1778. 
@@ -1873,10 +1884,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24412 strings out of 492990
- 608073 string characters out of 6138687
+ 24420 strings out of 492990
+ 608248 string characters out of 6138687
  789271 words of memory out of 5000000
- 27506 multiletter control sequences out of 15000+600000
+ 27513 multiletter control sequences out of 15000+600000
  22587 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,96p,1070b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1890,10 +1901,10 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (73 pages, 897973 bytes).
+Output written on Report.pdf (73 pages, 912456 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
+ 329 PDF objects out of 1000 (max. 8388607)
  202 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

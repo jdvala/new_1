@@ -4,29 +4,30 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Structure of Artificial Neuron\relax }}{7}
 \contentsline {figure}{\numberline {2}{\ignorespaces Structure of Artificial Neural Network\relax }}{8}
 \contentsline {figure}{\numberline {3}{\ignorespaces Feed Forward and Recurrent Neural Network\relax }}{8}
-\contentsline {figure}{\numberline {4}{\ignorespaces Supervised Learning\relax }}{11}
-\contentsline {figure}{\numberline {5}{\ignorespaces Unsupervised Learning(K-Means)\relax }}{12}
-\contentsline {figure}{\numberline {6}{\ignorespaces Reinforcement Learning\relax }}{12}
-\contentsline {figure}{\numberline {7}{\ignorespaces Sigmoid Activation Function\relax }}{13}
-\contentsline {figure}{\numberline {8}{\ignorespaces Step Activation Function\relax }}{14}
-\contentsline {figure}{\numberline {9}{\ignorespaces Rectified Linear Unit Activation Function\relax }}{14}
-\contentsline {figure}{\numberline {10}{\ignorespaces TanH Activation Function\relax }}{15}
-\contentsline {figure}{\numberline {11}{\ignorespaces Autoencoder with single hidden layer\relax }}{18}
-\contentsline {figure}{\numberline {12}{\ignorespaces Deep Belief Network\relax }}{20}
+\contentsline {figure}{\numberline {4}{\ignorespaces Supervised Learning\relax }}{10}
+\contentsline {figure}{\numberline {5}{\ignorespaces Unsupervised Learning(K-Means)\relax }}{11}
+\contentsline {figure}{\numberline {6}{\ignorespaces Reinforcement Learning\relax }}{11}
+\contentsline {figure}{\numberline {7}{\ignorespaces Sigmoid Activation Function\relax }}{12}
+\contentsline {figure}{\numberline {8}{\ignorespaces Step Activation Function\relax }}{13}
+\contentsline {figure}{\numberline {9}{\ignorespaces Rectified Linear Unit Activation Function\relax }}{13}
+\contentsline {figure}{\numberline {10}{\ignorespaces TanH Activation Function\relax }}{14}
+\contentsline {figure}{\numberline {11}{\ignorespaces Softplus Activation Function\relax }}{15}
+\contentsline {figure}{\numberline {12}{\ignorespaces Autoencoder with single hidden layer\relax }}{18}
+\contentsline {figure}{\numberline {13}{\ignorespaces Deep Belief Network\relax }}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {13}{\ignorespaces Accuracy of Adam Optimizer for different activation functions\relax }}{24}
-\contentsline {figure}{\numberline {14}{\ignorespaces Accuracy of RMSProp Optimizer for different activation functions\relax }}{27}
-\contentsline {figure}{\numberline {15}{\ignorespaces Accuracy of Stochastic Gradient Descent Optimizer for different activation functions\relax }}{29}
-\contentsline {figure}{\numberline {16}{\ignorespaces Accuracy of Momentum Optimizer for different activation functions\relax }}{32}
-\contentsline {figure}{\numberline {17}{\ignorespaces Accuracy of Deep Belief Network with different optimizers for Sigmoid activation \relax }}{35}
+\contentsline {figure}{\numberline {14}{\ignorespaces Accuracy of Adam Optimizer for different activation functions\relax }}{24}
+\contentsline {figure}{\numberline {15}{\ignorespaces Accuracy of RMSProp Optimizer for different activation functions\relax }}{27}
+\contentsline {figure}{\numberline {16}{\ignorespaces Accuracy of Stochastic Gradient Descent Optimizer for different activation functions\relax }}{29}
+\contentsline {figure}{\numberline {17}{\ignorespaces Accuracy of Momentum Optimizer for different activation functions\relax }}{32}
+\contentsline {figure}{\numberline {18}{\ignorespaces Accuracy of Deep Belief Network with different optimizers for Sigmoid activation \relax }}{35}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {18}{\ignorespaces Accuracy of Stacked Autoencoder with Adam optimizer for different activation \relax }}{42}
-\contentsline {figure}{\numberline {19}{\ignorespaces Accuracy of Stacked Autoencoder with RMSProp optimizer for different activation \relax }}{44}
-\contentsline {figure}{\numberline {20}{\ignorespaces Accuracy of Stacked Autoencoder with Stochastic Gradient Descent optimizer for different activation \relax }}{47}
-\contentsline {figure}{\numberline {21}{\ignorespaces Accuracy of Stacked Autoencoder with Momentum optimizer for different activation \relax }}{49}
+\contentsline {figure}{\numberline {19}{\ignorespaces Accuracy of Stacked Autoencoder with Adam optimizer for different activation \relax }}{42}
+\contentsline {figure}{\numberline {20}{\ignorespaces Accuracy of Stacked Autoencoder with RMSProp optimizer for different activation \relax }}{44}
+\contentsline {figure}{\numberline {21}{\ignorespaces Accuracy of Stacked Autoencoder with Stochastic Gradient Descent optimizer for different activation \relax }}{47}
+\contentsline {figure}{\numberline {22}{\ignorespaces Accuracy of Stacked Autoencoder with Momentum optimizer for different activation \relax }}{49}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {22}{\ignorespaces Accuracy of Stacked Autoencoder with Adam optimizer for different activation, Unsupervised Learning \relax }}{52}
-\contentsline {figure}{\numberline {23}{\ignorespaces Accuracy of Stacked Autoencoder with RMSProp optimizer for different activation, Unsupervised Learning \relax }}{55}
-\contentsline {figure}{\numberline {24}{\ignorespaces Accuracy of Stacked Autoencoder with Stochastic Gradient Descent optimizer for different activation, Unsupervised Learning \relax }}{58}
-\contentsline {figure}{\numberline {25}{\ignorespaces Accuracy of Stacked Autoencoder with Momentum optimizer for different activation, Unsupervised Learning \relax }}{60}
+\contentsline {figure}{\numberline {23}{\ignorespaces Accuracy of Stacked Autoencoder with Adam optimizer for different activation, Unsupervised Learning \relax }}{52}
+\contentsline {figure}{\numberline {24}{\ignorespaces Accuracy of Stacked Autoencoder with RMSProp optimizer for different activation, Unsupervised Learning \relax }}{55}
+\contentsline {figure}{\numberline {25}{\ignorespaces Accuracy of Stacked Autoencoder with Stochastic Gradient Descent optimizer for different activation, Unsupervised Learning \relax }}{58}
+\contentsline {figure}{\numberline {26}{\ignorespaces Accuracy of Stacked Autoencoder with Momentum optimizer for different activation, Unsupervised Learning \relax }}{60}

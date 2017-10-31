@@ -231,7 +231,7 @@ The ways in which these neurons are connected is what makes them so powerful. Th
 \end{figure}
 
 As we can see from the Figure \ref{fig:FFRN} that in feed forward neural network the flow of information is only in one direction that is from inputs to the outputs wherein in the recurrent neural network the information flows in many possible directions as show in the Figure \ref{fig:FFRN} \\ \par
-\clearpage
+
 There are other neural networks as follows
 \begin{itemize}
 	\item Convolutional Neural Networks
@@ -250,7 +250,7 @@ Training a neural network \textit{Deep or Shallow} requires some parameters to b
 \subsection{Supervised Learning}\label{sec:supervisedLearning}
 
 Supervised Learning is similar to how a human brain learns. Inputs and corresponding outputs are given to the network, this makes it easy for the network to classify or recognize the inputs as they are, then a new set of inputs are given to the network which the network has never seen before and its told to recognize based on the previous learning. Initially the weights are randomly selected and the neural network then maps the inputs and compares the corresponding outputs to the given labels or targets. Based on the comparison an error signal is generated, ideally the error signal is zero if the outputs are equal or similar to the inputs given, this error signal is then back propagated to the network. System then adapts its weights according to the error signal and optimize the error to make it more accurate. The repetitive process minimizes the error signal to a point where it is within our error tolerance level. Figure \ref{fig:supervised} shows how the error calculated at the end is back propagated to the network.\\ \par
-\clearpage
+
 Some of the supervised learning algorithms are listed below
 \begin{itemize}
 	\item{Perceptron Learning}
@@ -293,7 +293,7 @@ Reinforcement learning is inspired by behaviorist psychology. As the name sugges
 
 \begin{figure}[h]
 \centering	
-\includegraphics[width=9cm]{reinforcement.png}\\
+\includegraphics[width=6.9cm]{reinforcement.png}\\
 \caption{Reinforcement Learning}
 \label{fig:reinforcement}
 \end{figure} 
@@ -340,7 +340,7 @@ f(x) = \begin{Bmatrix}
 \end{figure} 	
 
 \subsubsection{Rectified Linear Unit (ReLU)}\label{sec:ReLU}
-Rectified Linear Unit function was first introduced by Hahnloser in 2000  with strong biological motivation and justification. This is the most popular activation function from deep neural networks \cite{ReLU}.\\
+Rectified Linear Unit function was first introduced by Hahnloser in 2000  with strong biological motivation and justification. This is the most popular activation function from deep neural networks,because unlike Sigmoid and TanH activation ReLU does not have a vanishing gradient problem\cite{ReLU}.\\
 %equation of relu
 \begin{equation}\label{eq:ReLU}
 f(x) = \begin{Bmatrix}
@@ -388,7 +388,19 @@ f_{i} (\overrightarrow{x}) =\frac{e^{x_{i}}}{\sum_{j=1}^{J} e^{x_{i}} }     \for
 \end{equation}
 \\ \par
 
-%% SOFTPULS LIKHNA HAI..
+\subsubsection{Softplus Activation Function}\label{sec:softplus}
+Softplus activation function is considered to be "smooth version of ReLU". Softplus has nonzero derivative everywhere on the graph which is contrast to ReLU.
+
+
+\begin{equation}\label{eq:softplus}
+	f(x) = ln(1+e^{x})
+\end{equation}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=7cm]{activation-softplus.png}
+	\caption{Softplus Activation Function}
+	\label{fig:softplus}
+\end{figure}
 
 
 %optimizers k formulas Likhna hai..
@@ -446,15 +458,15 @@ y = \sum_{i=0}^{n} \sigma(W_{i}x_{i} +b_{i})
 \\ \par
 \begin{figure}[h]
 \centering
-\includegraphics[width=10cm]{autoencoder.png}
+\includegraphics[width=8cm]{autoencoder.png}
 \caption{Autoencoder with single hidden layer}
 \label{fig:autoencoder}
 \end{figure}
 
-\clearpage
+
 \subsection{Types of Autoencoders}\label{sec:types_autoencoder}
 
-The simple autoencoder have some disadvantages, in some cases it was unable to learn the important features effectively. Hence, there was a need for improving the ability of autoencoders to learn the important features and representations for highly accurate results.\\ \par
+The simple autoencoder have some disadvantages, in some cases it was unable to learn the important features effectively. Hence, there was a need for improving the ability of autoencoders to learn the important features and representations for highly accurate results, and hence there was need of Denoising and Sparse autoencoders .\\ \par
 
 \subsubsection{Denoising Autoencoders}\label{sec:denoising_autoencoder}
 
@@ -464,7 +476,8 @@ When an autoencoder is trained, its necessary that the inputs provided for train
 
 In \textit{Sparse autoencoder}, we have large number of hidden units, more than inputs, by doing so the autoencoder can learn more useful structures and representation of the data. This kind of autoencoder is useful in classification tasks. Also sparsity can be achieved by tweaking the loss function during training (comparing probability distribution of the hidden unit activation with some low desired values) or by manually choosing the strongest hidden activation functions and ignoring the rest refereed to as \textit{k-sparse autoencoders}\cite{ksparseautoencoder}.\\ \par
 
-\clearpage
+The difference between Stacked autoencoder, Denoising autoencoder and Sparse autoencoder is that when we stack number of layers of encoder and similarly the decoders what we get is Stacked Autoencoders. This stacking helps in learning robustly the underlying structure in the data, Denoising Autoencoders are different in a way that it takes inputs with noise which makes it robust for any real world data and less susceptible to instability. Sparse autoencoders like stacked autoencoder also helps in understanding the underlying structure of the input data.
+
 \section{Deep Belief Networks}\label{sec:deep_belief_network}
 
 Deep Belief Networks are probabilistic generative models that are composed of multiple layers of stochastic, latent variables. The latent variables are binary units and are often called feature detectors\cite{DBN}. There is connection between units of different layers but not within the layers.
@@ -482,12 +495,8 @@ A \textit{restricted boltzmann machine}(RBM) is a generative stochastic artifici
 \end{figure}
 
 \subsection{Greedy Layer-Wise Training of Neural Networks}\label{greedy}
-As we have seen already seen in section \ref{challenges} that training a deep architecture of neural network is challenging. So the question remains how can we train deep networks? Geoffrey Hilton proposed greedy layer-wise training algorithm to train Deep Belief Networks \cite{Greedy}. The process involves is to train the layers of a network one at a time, suppose we have a deep neural network of four layers, so first we train a network with one hidden layer and after the first layer is trained we save the weights and biases. After the training is done we add a new layer and train again, in the end we save all the weights and biases, then we train the whole neural network with the weight and biases initialized from the saved ones from pre training of each layer.\\ \par
+As we have seen already seen in section \ref{challenges} that training a deep architecture of neural network is challenging. So the question remains how can we train deep networks? Geoffrey Hilton proposed greedy layer-wise training algorithm to train Deep Belief Networks \cite{Greedy}. The process involves is to train the layers of a network one at a time, suppose we have a deep neural network of four layers, so first we train a network with one hidden layer and after the first layer is trained we save the weights and biases. After the training is done we add a new layer and train again, in the end we save all the weights and biases, then we train the whole neural network with the weight and biases initialized from the saved ones from pre-training of each layer.\\ \par
 
-
-
-
-\clearpage
 
 \chapter{Evaluation and Results}\label{sec:EvaluationAndResults}
 \section{The Approach}\label{approach}
@@ -953,15 +962,6 @@ The \textit{Precision, Recall} and \textit{F-Measure} values for Momentum Optimi
 \end{table}
 
 
-
-
-
-
-
-
-
-
-
 \clearpage
 
 
@@ -969,7 +969,7 @@ The \textit{Precision, Recall} and \textit{F-Measure} values for Momentum Optimi
 \section{Deep Belief Network}\label{sec:dbn_eval}
 
 Deep Belief Networks are made up of stacked Restricted Boltzmann Machine which is explained in \ref{sec:deep_belief_network} and \ref{sec:RBM} \\ 
-The accuracy different Optimizers on Sigmoid Activation is given in the Figure below \ref{fig:dbn_accu_sigmoid}.\\ \par
+The accuracy different Optimizers on Sigmoid Activation is given in the Figure \ref{fig:dbn_accu_sigmoid} below.\\ \par
 \begin{figure}[ht]
 \centering
 \captionsetup{justification=centering,margin=2cm}
@@ -1087,15 +1087,15 @@ The Precision, Recall, and F-Measure for different optimizers with sigmoid activ
 \clearpage
 \chapter{Conclusion}
 
-From this project we have concluded that testing our model for different activation function and for different optimization algorithms yields different results then  
+From this project we have concluded that testing our model for different activation function and for different optimization algorithms yields different results on same data. 
+\\ \par
+The variation in accuracies arises from the nature of the activation functions and the optimization algorithms. As it is seen from the above results that due to non linear nature of data, sigmoid activation yields better results then others. ReLU suffers from knockout problem as the learning rate was a little high, a large gradient can kill a ReLU such that it never gets activated again ever. \\ \par
 
+For Adam optimizer, softplus activation behaves on par with sigmoid activation as seen in Figure \ref{fig:accuracy_adam_greedy}. For RMSProp optimizer, eLU and sigmoid activation yields similar results Figure \ref{fig:accuracy_rmsprop_greedy}. These results can be because of the way these networks were trained. Also we have concluded that training a network in greedily manner affect the results and is more effective in Intrusion Detection Systems. Although this will depend on the dataset in use.\\ \par
 
-ReLU suffers from knokout problem as
-
-https://www.quora.com/What-is-special-about-rectifier-neural-units-used-in-NN-learning
-
-However, this benefit did not last very long as practitioners figured ReLU suffers from the "Knockout Problem". With large learning rates, a large gradient can kill a ReLU such that it never gets activated again, ever. To fix this,  a good generalization is Maxout that caps the weight-data dot-product, saving it from the knock out problem[2]. It is worth noting that recent work on batch 
-
+The data that we used was clean and preprocessed free of an ambiguity but in real life scenario the data will be corrupt with a lot of ambiguities for which the network has to be robust. Training a denoising autoencoder may be useful in that case. Accuracy is not a good measure in this dataset as the classes are unbalanced. As we can see from the Table \ref{table:test_train},  difference between number of samples in \textit{Normal} and \textit{R2L} class is 67290, so our model cleverly decides to ignore one class completely in favor of high accuracy. Due to this fact we have decided to include other evaluation parameters which gave a broader view of the predictions made by our model. These parameters such as Precision Recall and F-1 Score does not take the whole dataset into account rather it takes each class separately and evaluate the model.   
+\\ \par
+The case is a lot similar for Deep Belief Network as all the optimizers with sigmoid activation Figure \ref{fig:dbn_accu_sigmoid} shows very similar results.
 
 
 \begin{thebibliography}{9}
