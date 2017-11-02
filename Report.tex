@@ -414,6 +414,17 @@ In this project of ours we have used four different optimizers to minimize the l
 \subsubsection{Stochastic Gradient Descent Optimizer}\label{sgd}
 Gradient descent is also called steepest descent. It is used to find the minimum of a function. It is also the popular method in the field of machine learning to find the highest accuracy and to minimize the error rate of a given training set and is used to calculate the minimum error by minimizing the cost function . To find the gradient descent, we need to take some steps which are proportional to the negative of the gradient of the function at a point. And if we take steps which are proportional to the positive gradient it reaches the local maximum of that particular function. This is known as gradient ascent\cite{OptimizerGeneral}.\\ \par
 
+\begin{gather}\label{eq:autoencoder_eq}
+w = w- \eta\sum_{i=1}^{n} \nabla Q_{i}(w)/n
+\intertext{Where:}
+  \begin{tabular}{>{$}r<{$}@{\ :\ }l}
+    w & is the parameter to be estimated\\
+    Q_{i}(w) & is is the value of the loss function at the i-th example\\
+    \eta & is the step size (sometimes called the learning rate in machine learning)\\
+  \end{tabular}\nonumber
+\end{gather}
+\\ \par
+
 \subsubsection{Adam Optimizer}\label{adam}
 ADAM (Adaptive Moment Optimizer) is an extension to GradientDescent optimizer which is seen these days as a broader option for deep learning applications in case of computer vision and natural language processing. It is used instead of GD to update the weights in the network based on iterations in the training data and is used to calculate the adaptive learning rate for each parameters (weight and bias)\cite{OptimizerGeneral}. It’s an popular algorithm in deep learning and have shown good results combining the properties of both AdaGrad and RMSProp algorithms which could handle the noise problems\\ \par
 
@@ -565,7 +576,7 @@ The dataset used for traning is \textit{Test Dataset} and the dataset used for t
 
 \subsection{Results}\label{results}
 
-Implementation of stacked autoencoders was done in three different ways. Doing so will give us a better view on which parameters work well for what configurations. In the following sections, the evaluation of stacked autoencoder in Greedy Layer-Wise pre-training can be found. The evaluation of stacked autoencoder in supervised training with TFlearn library can be found in appendix \ref{app:super} and results of stacked autoencoder with simple unsupervised training can be found in appendix \ref{app:unsuper_tf}.
+Implementation of stacked autoencoders was done in three different ways. Doing so will give us a better view on which parameters work well for what configurations. In the following sections, the evaluation of stacked autoencoder in Greedy Layer-Wise pre-training can be found. The evaluation of stacked autoencoder in non greedy training with TFlearn library can be found in appendix \ref{app:super} and results of stacked autoencoder with simple unsupervised training can be found in appendix \ref{app:unsuper_tf}.
 
 \clearpage
 The settings used to evaluate this model are depicted below, if due to some reason the settings are tweaked then it will be mentioned beforehand.\\ 
@@ -1146,7 +1157,7 @@ Yoshua Bengio, Pascal Lamblin, Dan Popovici, Hugo Larochelle, Greedy Layer-Wise 
 %appendix
 
 \begin{appendices}
-  \chapter{Results of Supervised Training of Stacked Autoencoder}\label{app:super}
+  \chapter{Results of Non Greedy Training of Stacked Autoencoder}\label{app:super}
  We started with the implementation of \textit{stacked autoencoder}. The library we first started implementing \textit{stacked autoencoder} in was \textbf{Tflearn}. It is a modular deep learning library built on top of Tensorflow, which is designed to provide higher-level API to Tensorflow in order to provide speed in experimentation.\\ \par
 
 We had build a model using Tflearn, just like Tensorflow it allows device placement for using multiple CPU/GPU. We started with building the network with input layer to be of 41 neurons as that is the number of input features that NSL-KDD has. Secondly we decided on having three hidden layers with 30, 20 and 10 neurons respectively. The next thing was to identify which activation function to use. We had gone with the most popular \textit{Sigmoid} activation as it is widely popular. So for the three layers we used the \textit{Sigmoid} activation. The final layer or the output layer has five neurons as we have to classify the attacks in five different classes namely, \textit{Normal, DoS, Probing, R2L, U2R}, hence we have used 5 neurons in the last layer. The activation function for the last layer is \textit{Softmax}, as stated in section \ref{sec:softmax} \textit{Softmax} is used in multi-class classification.\\ \par
