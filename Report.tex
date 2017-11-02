@@ -15,7 +15,7 @@
 \counterwithout{equation}{chapter}
 %Header and Footer package
 \usepackage{fancyhdr}
-\pagestyle{fancy}
+\pagestyle{plain}
 \fancyhead{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{1pt}
@@ -58,18 +58,22 @@
 	
 \end{titlepage}
 
+\pagenumbering{roman}
 \tableofcontents 
-\thispagestyle{empty}
-\thispagestyle{empty}
+\thispagestyle{plain}
 \listoffigures
-\thispagestyle{empty}
+\thispagestyle{plain}
 \listoftables
-\thispagestyle{empty}
+\thispagestyle{plain}
+
+
 
 
 \begin{abstract}
-\pagenumbering{roman}
-\pagestyle{empty}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\thispagestyle{plain}
+\addcontentsline{toc}{chapter}{Abstract}
 \justify
 The increasing number of cyber threats in industrial environments has prompted pioneers to search for security solutions that can protect and prevent industries from significant monetary loss and brand erosion. \\ \par
 The cyber attacks on Davis-Besse Power Station in January, 2003 and on Iranian Nuclear Plant in December, 2010 has turned industries into finding new and effective ways to tackle cyber security threats in industrial automation. According to Kaspersky lab \emph ``Every month, an average of one industrial computer in five (20.1\%) is attacked by malware.''\cite {Kaspersky}\\ \par
@@ -79,9 +83,7 @@ In this project Stacked Autoencoder and Deep Belief Network were created using T
 \end{abstract}
 
 \clearpage
-\pagenumbering{arabic}
-\setcounter{page}{1}
-
+\setcounter{page}{2}
 \chapter{Introduction}\label{sec:intro}
 \justify
 With the exponential increase in computer network usage and the increasing number of devices getting connected to a network, it is of great importance that they are operated securely. All computer networks suffers from one of many security flaws, the recent ``Wannacry Ransomware'' took cyber security industry by storm. Though there was a fix for that security loophole, organizations were slow on applying the security patches, this behaviour of the organization can be because of organizational heirarchial structure, to increase monetory profit or in some cases the machine is operating a critical infrastructure. Therefore, Intrusion Detection System's (IDS) role is becoming important in tackling cyber security.\\ \par
@@ -303,7 +305,7 @@ Reinforcement learning is inspired by behaviorist psychology. As the name sugges
 \subsection{Activation Functions}\label{activationfunction}
 Activation function in a neural network can be described as a function which transfers or translates the input signal to output signal. Comparing it to electrical circuit an activation function is one which can be ``\textit{ON}'' (1) or ``\textit{OFF}'' (0) depending on the input it receives. As the artificial neurons are inspired by the biological neuron, the activation function in biological from is either the neuron is firing or not.\\ \par
 
-Activation functions are selected for a specific application and are highly application dependent. There are many applications which needs classification and there are many application which require prediction, hence the properties of different activations are used in different applications. The most common activation functions with its properties are listed below. However we have used only four of the activation functions namely \textit{Sigmoid Activation, ReLU activation, eLU activation, Softplus activation} and in all the models the last layer of the model has \textit{Softmax activation}.\\ \par
+Activation functions are selected for a specific application and are highly application dependent. There are many applications which needs classification and there are many application which require prediction, hence the properties of different activation's are used in different applications. The most common activation functions with its properties are listed below. However we have used only four of the activation functions namely \textit{Sigmoid Activation, ReLU activation, eLU activation, Softplus activation} and in all the models the last layer of the model has \textit{Softmax activation}.\\ \par
 
 \subsubsection{Sigmoid Activation Function}\label{sec:sigmoid}
 Sigmoid is one of the most common activation function used in neural networks. This function is widely used because its easy to calculate their derivatives, which makes weights calculation very easy in some cases. Sigmoid activation has the vanishing gradient problem.\\ \par
@@ -576,7 +578,7 @@ The dataset used for traning is \textit{Test Dataset} and the dataset used for t
 
 \subsection{Results}\label{results}
 
-Implementation of stacked autoencoders was done in three different ways. Doing so will give us a better view on which parameters work well for what configurations. In the following sections, the evaluation of stacked autoencoder in Greedy Layer-Wise pre-training can be found. The evaluation of stacked autoencoder in non greedy training with TFlearn library can be found in appendix \ref{app:super} and results of stacked autoencoder with simple unsupervised training can be found in appendix \ref{app:unsuper_tf}.
+Implementation of stacked autoencoders was done in different ways and two libraries. Doing so will give us a better view on which parameters work well for what configurations. In the following sections, the evaluation of stacked autoencoder in Greedy Layer-Wise pre-training can be found. The evaluation of stacked autoencoder in non greedy training with TFlearn library can be found in appendix \ref{app:super} and results of stacked autoencoder in non greedy training in Tensorflow can be found in appendix \ref{app:unsuper_tf}.
 
 \clearpage
 The settings used to evaluate this model are depicted below, if due to some reason the settings are tweaked then it will be mentioned beforehand.\\ 
@@ -1157,12 +1159,12 @@ Yoshua Bengio, Pascal Lamblin, Dan Popovici, Hugo Larochelle, Greedy Layer-Wise 
 %appendix
 
 \begin{appendices}
-  \chapter{Results of Non Greedy Training of Stacked Autoencoder}\label{app:super}
+  \chapter{Results of Non Greedy Training of Stacked Autoencoder in TFlearn}\label{app:super}
  We started with the implementation of \textit{stacked autoencoder}. The library we first started implementing \textit{stacked autoencoder} in was \textbf{Tflearn}. It is a modular deep learning library built on top of Tensorflow, which is designed to provide higher-level API to Tensorflow in order to provide speed in experimentation.\\ \par
 
 We had build a model using Tflearn, just like Tensorflow it allows device placement for using multiple CPU/GPU. We started with building the network with input layer to be of 41 neurons as that is the number of input features that NSL-KDD has. Secondly we decided on having three hidden layers with 30, 20 and 10 neurons respectively. The next thing was to identify which activation function to use. We had gone with the most popular \textit{Sigmoid} activation as it is widely popular. So for the three layers we used the \textit{Sigmoid} activation. The final layer or the output layer has five neurons as we have to classify the attacks in five different classes namely, \textit{Normal, DoS, Probing, R2L, U2R}, hence we have used 5 neurons in the last layer. The activation function for the last layer is \textit{Softmax}, as stated in section \ref{sec:softmax} \textit{Softmax} is used in multi-class classification.\\ \par
 
-After the network is setup, the next task in hand was to define loss function and optimizer function, a \textit{loss function} will calculate the amount to information or data that is lost in the learning process. \textit{Optimizer} will try and minimize the loss parameter. For the purpose of this model we have used the \textit{categorical cross entropy}, which is square of the difference between the estimated values and the original values. \\ \par
+After the network is setup, the next task in hand was to define loss function and optimizer function, a \textit{loss function} will calculate the amount of information or data that is lost in the learning process. \textit{Optimizer} will try and minimize the loss parameter. For the purpose of this model we have used the \textit{categorical cross entropy}, which is square of the difference between the estimated values and the original values. \\ \par
 \begin{table}[ht]
 \centering
 \captionsetup{justification=centering,margin=2cm}
@@ -1568,10 +1570,10 @@ Batch Size          & 100             \\ \hline
 
 	
 %%%%%%%%%%%%%%%%UNSUPERVISED ATUTOENCODER%%%%%%%%%%%%%%%%%%%%%%%	
-  \chapter{Unsupervised Training Results of Stacked Autoencoder}\label{app:unsuper_tf}
-  For unsupervised learning algorithm we have used greedy layer-wise pre-training approach, but we soon realized that for unsupervised 			 training we will need more epochs and hence we bumped the epochs from 80 to 300.\\
+  \chapter{Results of Non Greedy Training of Stacked Autoencoder in Tensorflow}\label{app:unsuper_tf}
+  Just like in \textit{TFlearn}, stacked autoencoder without greedy layer wise pre-training was implemented in \textit{Tensorflow} as well but the number of epoch were increased from 80 to 300 to see if the results gets better or not.\\ \par
   
-This evaluation uses \textit{validation set} pre-train the model greedy layer-wise, \textit{train set} to train the whole neural network and \textit{test set} to evaluate the with different evaluation parameters.\\ \par
+
 
   \section{Adam Optimizer}
   	\begin{figure}[ht]
